@@ -9,9 +9,9 @@ function grid() {
         const square = document.createElement("div");
         square.addEventListener("mouseover", (e) => {
             e.target.style.backgroundColor = randomColor();
-            let op = e.target.style.opacity;
-            e.target.style.opacity = op + 0.1;
-            console.log(e.target.style.opacity);
+            // let op = e.target.style.opacity;
+            // e.target.style.opacity = op + 0.1;
+            // console.log(e.target.style.opacity);
         });
         // square.opacity = "0";
         square.className = "gridsquare";
